@@ -105,6 +105,29 @@ input[type=checkbox]:checked + label.line{
     text-decoration: line-through;
    }
 
-/* ingredients-list {
-    font-family: 'Patrick Hand', cursive;
-} */
+footer {
+    margin-top: 50px;
+    border-top: 10px darkgrey solid;
+    padding-top: 30px; 
+}
+
+footer div {
+    float: left;
+    border: 3px dotted #000;
+    width: 960px;
+}
+
+#van-pic {
+    float: left;
+
+}
+
+footer div div {
+    width: 50%;
+    
+}
+
+button {
+    float: right;
+
+}
