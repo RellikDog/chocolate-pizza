@@ -1,4 +1,4 @@
-/* header * {
+/* main * {
     border: 3px dotted #000;
 } */
 
@@ -60,8 +60,16 @@ h1 {
 #print-sec {
     float: right;
     width: 30%;
+    text-align: right;
 }
 
 #print-sec * {
     display: inline-block;
+}
+main div h6{
+    display: inline;
+}
+article img{
+    width: 100%;
+    margin-top: 25px;
 }
