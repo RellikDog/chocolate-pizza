@@ -6,6 +6,8 @@
     <title>Chocolate Pizza</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
 </head>
@@ -13,8 +15,10 @@
     <header>
         <div>
             <img src="img/logo.png">
-            <h3>Delicious</h3>
-            <h6>The best food blog on the web</h6>
+            <div id="titles">
+                <h3>Delicious</h3>
+                <h6>THE BEST FOOD ON THE WEB</h6>
+            </div>
         </div>
         <nav>
             <ul>
@@ -23,7 +27,7 @@
                 <li><a><img src="img/gp-icon.png"></a></li>
                 <li><a><img src="img/insta-icon.png"></a></li>
                 <li><a><img src="img/flic-icon.png"></a></li>
-                <li><a><img src="img/pint-icon.png"></a></li>
+                <li id="pint-icon"><a><img src="img/pint-icon.png"></a></li>
                 <li><a><img src="img/rss-icon.png"></a></li>
                 <li><a><img src="img/mail-icon.png"></a></li>
             </ul>
@@ -32,9 +36,11 @@
     <main>
         <div> 
             <h1>Chocolate Pizza</h1>
-            <h6>Posted on 15 Dec 2013 / Desserts</h6>
-            <img src="img/print-icon.png">
-            <h6>Print</h6>
+            <h6 id="post-date">POSTED ON 15 DEC 2013 / DESSERTS</h6>
+            <div id="print-sec">
+                <img src="img/print-icon.png">
+                <h6>Print</h6>
+            </div>
         </div>
         <article>
                 <img src="img/choco-pizza.png">
