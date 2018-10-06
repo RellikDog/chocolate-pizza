@@ -1,0 +1,67 @@
+/* header * {
+    border: 3px dotted #000;
+} */
+
+body {
+    width: 960px;
+    margin: 0px 120px;
+}
+
+header {
+    padding: 60px 0;
+    border-bottom: 10px darkgrey solid;
+    margin-bottom: 50px;
+}
+
+header div img {
+    float: left;
+    margin-right: 5px;
+    width: 45px;
+}
+
+#titles {
+    float: left;
+}
+
+header h3{
+    display: inline-block;
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+h6 {
+    font: 10px sans-serif;
+    color: grey;
+}
+
+nav {
+    Float: right;
+}
+
+nav li {
+    display: inline-block
+}
+
+#pint-icon {
+    margin-right: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#post-date {
+    width: 50%;
+}
+
+#print-sec {
+    float: right;
+    width: 30%;
+}
+
+#print-sec * {
+    display: inline-block;
+}
