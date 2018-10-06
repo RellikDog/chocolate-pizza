@@ -69,11 +69,22 @@ h1 {
 main div h6{
     display: inline;
 }
+
 article img{
     width: 100%;
-    margin-top: 25px;
+    margin: 25px 0;
 }
 
+article p {
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+section {
+    margin-top: 25px;
+    height: 300px;
+    background-image: url(img/list-bg.png);
+}
 /* ingredients-list {
     font-family: 'Patrick Hand', cursive;
 } */
